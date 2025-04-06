@@ -1,0 +1,55 @@
+/* General container */
+.container {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Login Styling */
+  .login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  /* Logout Button */
+  .logout-btn {
+    background-color: #dc3545;
+    margin-left: 10px;
+  }
+  
+  .logout-btn:hover {
+    background-color: #c82333;
+  }
+  
+  /* Error Message */
+  .error {
+    color: red;
+    font-size: 14px;
+  }
+  
